@@ -1,0 +1,539 @@
+.dark header {
+  background-color: #131313;
+}
+
+.dark .line {
+  background: #fff;
+}
+
+.dark .dark-mode {
+  background-image: url("https://1is.butagrup.az/back/assets/images/icons/light.png");
+  background-size: cover;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+}
+
+
+.dark .menu-items ul li a {
+  color: #fff;
+}
+
+.dark .active-filter {
+  background-color: #131313;
+}
+
+.dark .active-filters {
+  background-color: #131313;
+}
+
+.dark .filter-input {
+  background-color: #131313;
+}
+
+.dark .detail-search {
+  background-color: #131313;
+}
+
+.dark .popular-h1 {
+  color: #fdfdfd;
+}
+
+.dark .pop-card1 {
+  background-color: #131313;
+}
+
+.dark .text-field p {
+  color: #fdfdfd;
+}
+
+.dark .vac-card {
+  background-color: #131313;
+}
+
+.dark .vac-name {
+  color: #fdfdfd;
+}
+
+.dark .vac-inner1-a {
+  background-color: #21053c;
+}
+
+.dark .select {
+  color: #fff;
+}
+
+.dark .caret {
+  filter: invert(0);
+}
+
+.dark .caret-rotate {
+  filter: invert(1) !important;
+}
+
+.dark .new-vac-badge {
+  background: #21053c;
+}
+
+/* VACANCY ALL DARK */
+.dark .all-vacantions {
+  background-color: #131313 !important;
+}
+
+.dark .vac-card {
+  background-color: #0d0d0d;
+}
+
+.dark .section-filter h2 {
+  color: #898787;
+}
+
+.dark #check-label {
+  color: #fff;
+}
+.dark .dropdown2 h2 {
+  color: #fff;
+}
+
+.dark .blog-all-result-text {
+  color: #fff;
+}
+
+/* JOB SEARCHERS */
+.dark .main-container h3 {
+  color: #d3d1d1;
+}
+
+.dark .contentclass {
+  background-color: #0d0d0d;
+}
+
+.dark .name {
+  color: #fff;
+}
+
+.dark .profession {
+  color: #fff;
+}
+
+.dark .salary {
+  color: #fff;
+}
+
+.dark .jobsearchers p {
+  color: #d3d1d1;
+}
+
+.dark .job-search-card {
+  background-color: #0d0d0d;
+}
+
+.dark .jobsearch-card-information h4 {
+  color: #fff;
+}
+
+.dark .sortclass span {
+  color: #fff;
+}
+
+.dark .jobsearch-card-information p {
+  color: #fff;
+}
+
+.dark .jobsearch-card-information h3 {
+  color: #fff;
+}
+
+.dark .jobsearch-all-result-text {
+  color: #fff;
+}
+
+/* blog page dark */
+.dark h2.blog-head {
+  color: #d3d1d1;
+}
+
+.dark .blog-card-container h3 {
+  color: #d3d1d1;
+}
+
+/* CONTACT DARK MODE */
+.dark .contact-right {
+  color: #fff;
+}
+
+/* INSTRUCTIONS DARK MODE */
+.dark .position-instructions-container {
+  background-color: #1b1523;
+}
+
+.dark .position-instructions-container li {
+  color: #fdfdfd;
+}
+
+.dark .instructions-div1 {
+  background-color: #21053c;
+}
+
+/* terms page dark */
+.dark .terms-content {
+  background-color: #1e1e1e;
+}
+
+.dark .terms-content > .container > div {
+  background-color: #696c76;
+  color: #fdfdfd;
+}
+
+.dark .container h2 {
+  color: #fdfdfd;
+}
+
+.dark .add-training-input-group label {
+  color: #fdfdfd;
+}
+
+
+.dark .trending-nav-link1.active,
+.dark .trending-nav-link2.active {
+  color: #000 !important;
+}
+
+
+.dark .add-training-input-group input,
+.dark .add-training-input-group select,
+.dark .add-training-input-group textarea {
+  background-color: #3a3737 !important;
+}
+
+.dark .add-training-input-group .add-image-label {
+  background-color: #3a3737 !important;
+  color: #fdfdfd;
+}
+
+.dark .profile-section {
+  background: #1e1e1e;
+}
+
+.dark .prof-cont-left {
+  background: #1b1523;
+}
+
+.dark .nav-pills .nav-link {
+  background: #1b1523;
+  box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+.dark .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: #9559e5;
+  box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+.dark .form-group input{
+  background: #0D0D0D;
+  color: #9559E5;
+  border: none;
+}
+
+
+.dark .form-innerdiv span{
+  color: #9559E5;
+}
+
+.dark .form-group label{
+  color: #FDFDFD;
+}
+
+
+.dark .proftab-1{
+  background: #1B1523;
+}
+
+
+.dark .nav-link.active  > .icon-1{
+  background: url(../images/prof-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.dark .nav-link.active  > .icon-2{
+  background: url(../images/hear-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.dark .nav-link.active  > .icon-3{
+  background: url(../images/setting-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.dark .add-training-tabs {
+  background-color: #1B1523;
+}
+
+.dark .add-training-tabs a {
+  background-color: #1B1523!important;
+}
+
+.dark .add-training-card {
+  background-color: #000000;
+}
+
+.dark .add-training-card p {
+  color: #fdfdfd;
+}
+
+.dark .create-cv-header {
+  color: #fff;
+}
+
+.dark .create-cv-tabs {
+  background-color: #1B1523;
+}
+
+.dark .create-cv-tabs a {
+  background-color: #1B1523!important;
+}
+
+.dark .create-cv-input-group label {
+  color: #FDFDFD;
+}
+
+.dark .create-cv-input-group input,
+.dark .create-cv-input-group select,
+.dark .create-cv-input-group textarea {
+  background-color: #0D0D0D;
+  color: #D3D1D1;
+}
+
+.dark .create-cv-input-group .add-image-label {
+  background-color: #000!important;
+}
+
+.dark .create-cv-form h3 {
+  color: #fff;
+}
+
+.dark .add-cv-custom-file label:after {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark .edit-training-input-group label {
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.dark .company-announce-tabs {
+  background-color: #1B1523;
+}
+
+.dark .trending-nav-link1,
+.dark .trending-nav-link2,
+.dark .trending-nav-link3,
+.dark .trending-nav-link4 {
+  background-color: #1B1523!important;
+}
+
+.dark .trending-nav-link1.active,
+.dark .trending-nav-link2.active,
+.dark .trending-nav-link3.active,
+.dark .trending-nav-link4.active {
+  color: #fff!important;
+}
+
+.dark .company-announce-input-group select,
+.dark .company-announce-input-group textarea {
+  background-color: #0D0D0D;
+}
+
+.dark .musahibe-check-label,
+.dark .accept-demand-label {
+  color: #fff;
+}
+
+.dark .side-link {
+  background-color: #0d0d0d;
+}
+
+.dark .company-inner h3{
+  color: #fff;
+}
+
+.dark .carousel-vacancy h3{
+  color: #fff;
+}
+
+.dark .company-inner-comment-header{
+  color: #fff;
+}
+
+.dark .comment-bottom-section span{
+  color: #Fff;
+}
+
+.dark .comment-profile-name p{
+  color: #fff;
+}
+
+.dark .about-company{
+  background: #000000;
+}
+
+.dark .comment{
+  background: #000000;
+}
+
+
+.dark .slider-vacancy-header{
+  background: #21053C;
+}
+
+.dark .slider-vacancy h3{
+  color: #fff;
+}
+
+.dark .slider-vacancy{
+  background: #000000;
+}
+
+.dark .about-company-col span{
+  color: #fff;
+}
+
+.dark .about-company-col p{
+  color: #Fff;
+}
+
+.dark .about-company-col h5{
+  color: #fff;
+}
+
+.dark .main-office{
+  background: #000000;
+}
+
+.dark .company-about-link{
+  background: #000000;
+}
+
+.dark .number-of-vacancies{
+  background: #000000;
+}
+
+.dark .number-of-employees{
+  background: #000000;
+}
+
+
+.dark .modal-content{
+  background: #1E1E1E;
+}
+
+.dark p.comp-detail{
+  color: #fff;
+}
+
+.dark .modal-header-details h1{
+  color: #fff;
+}
+
+.dark .nav-tabs{
+  border: none !important;
+}
+
+.dark .rate-span{
+  color: #Fff;
+}
+
+.dark .rate-left-p2 form label{
+  color: #fff;
+}
+
+.dark .location-div span{
+  color: #fff;
+}
+
+.dark .your-com{
+  color: #fff;
+}
+
+
+.dark #value-span{
+  color: #fff;
+}
+
+.dark .rating-div h1{
+  color: #fff;
+}
+
+.dark .rate-per{
+  color: #fff;
+}
+
+.dark #training_name{
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.dark #training_date{
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.dark #training_information{
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.dark #training_companies{
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.dark #training_url{
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.dark #training_payment{
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.dark #getshow{
+  background: #131313;
+}
+
+.dark .vac-select{
+  color: #adb5bd;
+}
+
+.dark .select_box:after{
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #8843E1;
+  position: absolute;
+  top: 43%;
+  right: 5.67px;
+  content: "";
+  z-index: 99;
+ }
+
+
+@media screen and (max-width: 801px) {
+  .dark .menu-items ul{
+    background: #131313;
+  }
+}

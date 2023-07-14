@@ -1,0 +1,316 @@
+.add-training {
+    margin-top: 50px;
+}
+
+.add-training-container {
+    max-width: 1000px!important;
+    width: 100%;
+}
+
+.add-training-tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 26px 36px;
+    gap: 10px;
+    height: 178px;
+}
+
+.add-training-tabs a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #FDFDFD!important;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25)!important;
+    border-radius: 10px!important;
+    padding: 17px 52px;
+    color: #9559E5!important;
+
+}
+
+.add-training-tabs .nav-link.active, .add-training-tabs .show>.nav-link {
+    background: #9559E5!important;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25)!important;
+    border-radius: 10px!important;
+    padding: 17px 52px;
+    color: #FDFDFD!important;
+}
+
+:not(.active).add-training-form{
+    display: none!important;
+}
+
+:not(.active).add-training-card-wrapper{
+    display: none!important;
+}
+
+.add-training-input-group input {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 17px 14px!important;
+    gap: 10px;
+}
+
+.add-training-input-group select {
+    height: 60px!important;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.add-training-input-group label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #020202;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #9559E5;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(149, 89, 229, .25);
+}
+
+.training-custom-file {
+    height: 60px;
+}
+
+.training-custom-file input {
+    height: 60px;
+}
+
+.training-custom-file label {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "";
+}
+
+.custom-file-label::after {
+    display: none;
+    height: 0;
+    padding: 0;
+    line-height: 0;
+    content: "";
+    background-color: transparent;
+    border: none;
+}
+
+.add-training-form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.add-training-form-button button {
+    padding: 10px 29px;
+    background: #9559E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.add-training-card {
+    position: relative;
+    background: #FDFDFD;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-training-card p {
+    text-align: center;
+    margin-top: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.add-training-card span {
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6F6464;
+}
+
+.add-training-card-image {
+    width: 124px;
+    height: 124px;
+}
+
+.add-training-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add-image-label {
+    color: #6F6464!important;
+}
+
+.training-list-thin {
+    border: 1px solid #9559E5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    padding: 15px 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9559E5;
+    margin-top: 23px;
+}
+
+.training-list-edit {
+    position: absolute;
+    top: 16px;
+    right: 38px;
+}
+
+.training-list-green {
+    position: absolute;
+    top: 22px;
+    right: 13px;
+}
+
+.add-training-card-more-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.add-training-card-more-button button {
+    background: #9559E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FDFDFD;
+}
+
+@media screen and (max-width: 968px) {
+    .add-training-tabs a,
+    .add-training-tabs .nav-link.active, .add-training-tabs .show>.nav-link {
+        padding: 15px 48px;
+    }
+
+    .add-training-tabs {
+        height: 174px;
+    }
+
+    .add-training-input-group input {
+        padding: 15px 13px!important;
+        gap: 9px;
+    }
+
+    .add-training-input-group select {
+        height: 56px!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .add-training-tabs a,
+    .add-training-tabs .nav-link.active, .add-training-tabs .show>.nav-link {
+        padding: 13px 42px;
+    }
+
+    .add-training-tabs {
+        height: 170px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .add-training-input-group input {
+        padding: 14px 12px!important;
+        gap: 8px;
+    }
+
+    .add-training-input-group select {
+        height: 54px!important;
+    }
+
+    .add-training-form {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .add-training-tabs a,
+    .add-training-tabs .nav-link.active, .add-training-tabs .show>.nav-link {
+        padding: 12px 36px;
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .add-training-tabs {
+        height: 166px;
+        padding: 22px 32px;
+    }
+
+    .add-training-input-group input {
+        padding: 13px 11px!important;
+        gap: 7px;
+    }
+
+    .add-training-input-group select {
+        height: 52px!important;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .add-training-tabs a,
+    .add-training-tabs .nav-link.active, .add-training-tabs .show>.nav-link {
+        padding: 10px 30px;
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .add-training-tabs {
+        height: 162px;
+        padding: 18px 28px;
+    }
+
+    .add-training-input-group input {
+        padding: 12px 10px!important;
+    }
+
+    .add-training-input-group select {
+        height: 50px!important;
+    }
+}

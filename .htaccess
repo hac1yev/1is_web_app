@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php801 .php .php7 .phtml
+</IfModule>
+
+Header always set Content-Security-Policy: upgrade-insecure-requests

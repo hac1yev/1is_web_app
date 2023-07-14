@@ -1,0 +1,477 @@
+.login-section {
+    width: 100%;
+}
+
+.login-background {
+    background: url('https://1is.butagrup.az/back/assets/images/icons/login_desktop.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-authentification {
+    width: 32%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px 0 25px 0;
+}
+
+.login-authentification img {
+    width: 194px;
+    height: 66px;
+}
+
+.login-authentification h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 52px;
+    letter-spacing: -0.06em;
+    color: #1E1E1E;
+    margin-top: 30px;
+}
+
+.login-form {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-group label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1E1E1E;
+}
+
+.login-form-group input {
+    padding: 10px 16px;
+    background-color: transparent;
+    border: 1px solid #5B5B5B;
+    border-radius: 8px;
+}
+
+.login-form-group input:focus {
+    outline: 1px solid #8843E1;
+}
+
+.remember-me-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 76%;
+    padding: 0 15px;
+}
+
+.forgot-password {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.remember-me-checkbox label {
+    margin-bottom: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 8px;
+}
+
+.login-buttons span {
+    font-size: 12px;
+}
+
+.login-registration {
+    width: 100%;
+    background: #8843E1;
+    border: 1px solid rgba(91, 91, 91, 0.5);
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FCFCFC;
+    height: 47px;
+    border: none;
+    outline: none;
+}
+
+.login-google-registration {
+    height: 47px;
+    border: 1px solid #5B5B5B;
+    border-radius: 8px;
+    background-color: #F4F9FD;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #1A1C1E;
+    display: flex;
+    align-items: center;
+    padding: 14.5px 20.5px;
+    gap: 10px;
+}
+
+.login-google-registration img {
+    width: 18px;
+    height: 18px;
+}
+
+@media screen and (max-width: 1300px) {
+    .login-authentification img {
+        width: 155px;
+        height: 50px;
+    }
+
+    .login-authentification h3 {
+        font-size: 42px;
+        line-height: 32px;
+        letter-spacing: -0.06em;
+        color: #1E1E1E;
+        margin-top: 25px;
+    }
+
+    .login-form {
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .login-form-group label {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .login-form-group input {
+        padding: 8px 14px;
+        background-color: transparent;
+        border: 1px solid #5B5B5B;
+        border-radius: 8px;
+    }
+
+    .remember-me-checkbox label {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .forgot-password {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .login-buttons {
+        margin-top: 20px;
+        gap: 5px;
+    }
+
+    .login-registration {
+        font-size: 12px;
+        line-height: 15px;
+        height: 37px;
+    }
+
+    .login-google-registration {
+        height: 37px;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 6.5px 10.5px;
+        gap: 5px;
+    }
+
+    .login-google-registration img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .login-authentification img {
+        width: 125px;
+        height: 40px;
+    }
+
+    .login-authentification h3 {
+        font-size: 32px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .login-form {
+        margin-top: 30px;
+    }
+
+    .login-form-group label {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .login-form-group input {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+
+    .remember-me-checkbox label {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .forgot-password {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .login-buttons {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .login-registration {
+        height: 33px;
+        font-size: 10px;
+    }
+
+    .login-google-registration {
+        height: 33px;
+        font-size: 10px;
+    }
+
+    .login-google-registration img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .login-section {
+        width: 100%;
+        height: 800px;
+    }
+
+    .register-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-background {
+        background: #F4F9FD;
+    }
+
+    .login-authentification img {
+        width: 194px;
+        height: 66px;
+    }
+
+    .login-authentification h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 52px;
+        letter-spacing: -0.06em;
+        color: #1E1E1E;
+        margin-top: 30px;
+    }
+
+    .login-authentification {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 55px 0 55px 0;
+    }
+
+    .login-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-bottom {
+        display: flex;
+        justify-content: space-between;
+        width: 58%;
+        padding: 0 15px;
+    }
+
+    .login-google-registration {
+        height: 33px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-form-group input {
+        padding: 14px 20px;
+        background-color: transparent;
+        border: 1px solid #5B5B5B;
+        border-radius: 8px;
+    }
+
+    .login-form-group label {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1E1E1E;
+    }
+
+    .login-registration {
+        width: 100%;
+        background: #8843E1;
+        border: 1px solid rgba(91, 91, 91, 0.5);
+        border-radius: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #FCFCFC;
+        height: 47px;
+        border: none;
+        outline: none;
+    }
+
+    .login-google-registration {
+        height: 47px;
+        border: 1px solid #5B5B5B;
+        border-radius: 8px;
+        background-color: #F4F9FD;
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #1A1C1E;
+        display: flex;
+        align-items: center;
+        padding: 14.5px 20.5px;
+        gap: 10px;
+    }
+
+    .remember-me-checkbox label {
+        margin-bottom: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .forgot-password {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #000000;
+    }
+
+    .login-google-registration img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .login-form {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .login-bottom {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-section {
+        height: 1000px;
+    }
+
+    .login-authentification {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 55px 0 0 0;
+    }
+
+    .login-authentification img {
+        width: 110px;
+        height: 50px;
+    }
+
+    .login-authentification h3 {
+        font-size: 35px;
+        line-height: 42px;
+        margin-top: 25px;
+    }
+
+    .login-form {
+        margin-top: 20px;
+    }
+
+    .login-google-registration img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .login-registration,
+    .login-google-registration {
+        font-size: 12px;
+        line-height: 15px;
+        height: 43px;
+    }
+
+    .login-form-group input {
+        padding: 12px 16px;
+        background-color: transparent;
+        border: 1px solid #5B5B5B;
+        border-radius: 8px;
+    }
+}

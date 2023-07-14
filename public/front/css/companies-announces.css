@@ -1,0 +1,696 @@
+.company-announce {
+    margin-top: 50px;
+}
+
+.custom-file{
+    position: relative;
+}
+
+.custom-file img{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    z-index: 10;
+}
+
+.company-announce-container {
+    max-width: 1000px!important;
+    width: 100%;
+}
+
+.company-announce-col {
+    padding-right: 0;
+}
+
+.company-announce .comp-card {
+    width: 100%;
+    margin: 0;  
+    margin-bottom: 15px!important;
+}
+
+.company-announce .comp-card .inner2 {
+    width: 100%;
+    height: 93px;
+}
+
+.edit-announce-container {
+    max-width: 1000px!important;
+    width: 100%;
+}
+
+.company-announce .comp-card .inner2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.company-announce-row {
+    display: flex!important;    
+}
+
+.company-announce-form h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #020202;
+    margin-bottom: 15px;
+}
+
+.company-announce-tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 26px 36px;
+    gap: 10px;
+    height: 350px;
+}
+
+.company-announce-tabs a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #FDFDFD!important;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25)!important;
+    border-radius: 10px!important;
+    padding: 17px 52px;
+    color: #9559E5!important;
+    font-family: 'Montserrat'!important;
+    font-style: normal!important;
+    font-weight: 600!important;
+    font-size: 14px!important;
+    line-height: 17px!important;
+
+}
+
+.company-announce-tabs .nav-link.active, .company-announce-tabs .show>.nav-link {
+    background: #9559E5!important;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25)!important;
+    border-radius: 10px!important;
+    padding: 17px 52px;
+    color: #FDFDFD!important;
+}
+
+.company-announce-form {
+    display: flex!important;
+}
+
+.announces-row {
+    display: flex!important;
+}
+
+
+.create-announce-row {
+    padding-left: 1rem;
+}
+
+
+
+.company-announce-header {
+    position: absolute;
+    text-align: center;
+    top: -100px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #020202;
+}
+
+.company-announce-input-group input {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 17px 14px!important;
+    gap: 10px;
+}
+.has-error input,
+.has-error select,
+.has-error textarea {
+    border-color: red;
+}
+
+.has-error .help-block {
+    color: red;
+}
+.company-announce-input-group select {
+    height: 60px!important;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.company-announce-input-group label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #020202;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #9559E5;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(149, 89, 229, .25);
+}
+
+.company-announce-custom-file,
+.add-cv-custom-file {
+    height: 60px;
+}
+
+.company-announce-custom-file input, 
+.add-cv-custom-file input {
+    height: 60px;
+}
+
+.company-announce-custom-file label,
+.add-cv-custom-file label {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.edit-announce {
+    padding: 0 10px;
+}
+
+.side-link {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #0920EF;
+    padding: 0 14px;
+}
+
+.side-link-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #020202;
+}
+
+.delete-announce {
+    background: #E55959!important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 117px;
+    height: 37px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px!important;
+    line-height: 17px!important;
+    color: #FFFFFF;
+}
+
+.save-announce {
+    background: #9559E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 117px;
+    height: 37px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px!important;
+    line-height: 17px!important;
+    color: #FFFFFF;
+}
+
+.edit-announce-buttons {
+    gap: 20px;  
+}
+
+.add-cv-custom-file label {
+    background-color: #9559E5;
+    color: #fff!important;
+}
+
+.add-cv-custom-file label:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    width: 138px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    color: #495057;
+    content: "Əlavə et +"!important;
+    background-color: #fff;
+    border-left: inherit;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "";
+}
+
+.musahibe-check-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px!important;
+    line-height: 12px;
+    color: #4A4444;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.musahibe-check-input {
+    width: 24px;
+    height: 24px;
+}
+
+
+.accept-demand-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4A4444;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.accept-demand-input {
+    width: 24px;
+    height: 24px;
+}
+
+
+.custom-file-label::after {
+    display: none;
+    height: 0;
+    padding: 0;
+    line-height: 0;
+    content: "";
+    background-color: transparent;
+    border: none;
+}
+
+.company-announce-form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.add-cv-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600!important;
+    font-size: 20px!important;
+    line-height: 24px!important;
+    color: #020202;
+}
+
+.company-announce-form-button button {
+    padding: 10px 29px;
+    background: #9559E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.add-training-card {
+    position: relative;
+    background: #FDFDFD;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-training-card p {
+    text-align: center;
+    margin-top: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.add-training-card span {
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6F6464;
+}
+
+.add-training-card-image {
+    width: 124px;
+    height: 124px;
+}
+
+.add-training-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add-image-label {
+    color: #6F6464!important;
+}
+
+.training-list-thin {
+    border: 1px solid #9559E5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    padding: 15px 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9559E5;
+    margin-top: 23px;
+}
+
+.training-list-edit {
+    position: absolute;
+    top: 16px;
+    right: 38px;
+}
+
+.training-list-green {
+    position: absolute;
+    top: 22px;
+    right: 13px;
+}
+
+.add-training-card-more-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.add-training-card-more-button button {
+    background: #9559E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FDFDFD;
+}
+
+.cv-jobsearcher {
+    margin-bottom: 83px;
+}
+
+@media screen and (max-width: 1200px) {
+    .company-announce-input-group label {
+        font-size: 12px;
+    }
+
+    .company-announce-input-group label:after {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 991.5px) {
+    .company-announce {
+        margin-top: 80px;
+    }
+
+    .company-announce-card-wrapper {
+        margin-top: 120px;
+    }
+
+    .company-announce-header {
+        top: 20px;
+        padding-right: 30px;
+    }
+
+    .company-announce-form {
+        margin-top: 20px;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .company-announce .comp-card .inner2 {
+        width: 100%;
+        height: 170px;
+    }
+
+    .company-announce-col {
+        display: flex;
+        justify-content: center;
+    }
+
+    .company-announce-row,
+    .announces-row {
+        margin-top: 20px;
+    }
+
+    .company-announce-col {
+        padding: 0 15px!important;
+    }
+
+    .create-announce-row {
+        padding-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .company-announce-card-col {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .company-announce-input-group {
+        padding: 0;
+    }
+
+    .company-announce-form h3 {
+        padding: 0;
+    }
+
+    .company-announce-col,
+    .announces-col {
+        padding: 0;
+    }
+
+    .comp-card {
+        width: 60%!important;
+    }
+
+    .create-announce-row {
+        padding: 0 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .company-announce-tabs a,
+    .company-announce-tabs .nav-link.active, .company-announce-tabs .show>.nav-link {
+        padding: 15px 48px;
+    }
+
+    .company-announce-tabs {
+        height: 300px;
+    }
+
+    .company-announce-input-group input {
+        padding: 15px 13px!important;
+        gap: 9px;
+    }
+
+    .company-announce-input-group select {
+        height: 56px!important;
+    }
+
+    .side-link {
+        font-size: 9px;
+    }
+
+    .comp-insta-img {
+        top: 43px;
+    }
+
+    .company-announce-social input {
+        padding-left: 47px!important;
+    }
+
+    .comp-insta-img {
+        top: 44px;
+    }
+
+    .company-announce-social input {
+        padding-left: 47px!important;
+    }
+
+    .comp-insta-img {
+        top: 45px;
+    }
+
+    .company-announce-social input {
+        padding-left: 47px!important;
+    }
+
+    .comp-insta-img {
+        top: 46px;
+    }
+
+    .company-announce-social input {
+        padding-left: 47px!important;
+    }
+
+    .company-announce-social {
+        position: relative;
+    }
+    
+    .company-announce-social input {
+        padding-left: 47px!important;
+    }
+    
+    .comp-insta-img {
+        position: absolute;
+        top: 47px;
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .company-announce-tabs a,
+    .company-announce-tabs .nav-link.active, .company-announce-tabs .show>.nav-link {
+        padding: 13px 42px;
+    }
+
+    .company-announce-tabs {
+        height: 290px;
+        
+    }
+
+    .company-announce-input-group input {
+        padding: 14px 12px!important;
+        gap: 8px;
+    }
+
+    .company-announce-input-group select {
+        height: 54px!important;
+    }
+
+    .add-cv-custom-file label {
+        padding-right: 100px;
+        font-size: 10px;
+    }
+
+    .add-cv-custom-file label:after {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .company-announce-tabs a,
+    .company-announce-tabs .nav-link.active, .company-announce-tabs .show>.nav-link {
+        padding: 12px 36px;
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .company-announce-tabs {
+        height: 270px;
+        padding: 22px 32px;
+    }
+
+    .company-announce-input-group input {
+        padding: 13px 11px!important;
+        gap: 7px;
+    }
+
+    .company-announce-input-group select {
+        height: 52px!important;
+    }
+
+    .comp-card {
+        width: 80%!important;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .company-announce-tabs a,
+    .company-announce-tabs .nav-link.active, .company-announce-tabs .show>.nav-link {
+        padding: 10px 30px;
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .company-announce-tabs {
+        height: 250px;
+        padding: 10px 15px;
+    }
+
+    .company-announce-input-group input {
+        padding: 12px 10px!important;
+    }
+
+    .company-announce-input-group select {
+        height: 50px!important;
+    }
+
+    .add-cv-custom-file label {
+        padding-right: 60px;
+        font-size: 10px;
+    }
+
+    .add-cv-custom-file label:after {
+        width: 70px;
+    }
+
+    .comp-card {
+        width: 100%!important;
+    }
+
+    .company-announce .comp-card .inner2 {
+        height: 120px!important;
+    }
+}

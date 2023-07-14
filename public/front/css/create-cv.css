@@ -1,0 +1,454 @@
+.create-cv {
+    margin-top: 126px;
+}
+
+.create-cv-container {
+    max-width: 1250px!important;
+    width: 100%;
+}
+
+.create-cv-form h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #020202;
+    margin-bottom: 15px;
+}
+
+.create-cv-tabs {
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 26px 36px;
+    gap: 10px;
+    height: 270px;
+}
+
+.create-cv-tabs a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #FDFDFD!important;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25)!important;
+    border-radius: 10px!important;
+    padding: 17px 52px;
+    color: #9559E5!important;
+    font-family: 'Montserrat'!important;
+    font-style: normal!important;
+    font-weight: 600!important;
+    font-size: 14px!important;
+    line-height: 17px!important;
+
+}
+
+.create-cv-tabs .nav-link.active, .create-cv-tabs .show>.nav-link {
+    background: #9559E5!important;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25)!important;
+    border-radius: 10px!important;
+    padding: 17px 52px;
+    color: #FDFDFD!important;
+}
+
+.create-cv-form {
+    display: flex!important;
+}
+
+:not(.active).create-cv-form{
+    display: none!important;
+}
+
+:not(.active).create-cv-card-wrapper,
+:not(.active).cv-liked-card-wrapper {
+    display: none!important;
+}
+
+.create-cv-header {
+    position: absolute;
+    text-align: center;
+    top: -100px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #020202;
+}
+
+.create-cv-input-group input {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 17px 14px!important;
+    gap: 10px;
+}
+
+.create-cv-input-group select {
+    height: 60px!important;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.create-cv-input-group label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #020202;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #9559E5;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(149, 89, 229, .25);
+}
+
+.create-cv-custom-file,
+.add-cv-custom-file {
+    height: 60px;
+}
+
+.create-cv-custom-file input, 
+.add-cv-custom-file input {
+    height: 60px;
+}
+
+.create-cv-custom-file label,
+.add-cv-custom-file label {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.add-cv-custom-file label {
+    background-color: #9559E5;
+    color: #fff!important;
+}
+
+.add-cv-custom-file label:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    width: 138px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    color: #495057;
+    content: "Əlavə et +"!important;
+    background-color: #fff;
+    border-left: inherit;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "";
+}
+
+.custom-file-label::after {
+    display: none;
+    height: 0;
+    padding: 0;
+    line-height: 0;
+    content: "";
+    background-color: transparent;
+    border: none;
+}
+
+.create-cv-form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.add-cv-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600!important;
+    font-size: 20px!important;
+    line-height: 24px!important;
+    color: #020202;
+}
+
+.create-cv-form-button button {
+    padding: 10px 29px;
+    background: #9559E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.add-training-card {
+    position: relative;
+    background: #FDFDFD;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-training-card p {
+    text-align: center;
+    margin-top: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.add-training-card span {
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6F6464;
+}
+
+.add-training-card-image {
+    width: 124px;
+    height: 124px;
+}
+
+.add-training-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add-image-label {
+    color: #6F6464!important;
+}
+
+.training-list-thin {
+    border: 1px solid #9559E5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    padding: 15px 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9559E5;
+    margin-top: 23px;
+}
+
+.training-list-edit {
+    position: absolute;
+    top: 16px;
+    right: 38px;
+}
+
+.training-list-green {
+    position: absolute;
+    top: 22px;
+    right: 13px;
+}
+
+.add-training-card-more-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.add-training-card-more-button button {
+    background: #9559E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FDFDFD;
+}
+
+.cv-jobsearcher {
+    margin-bottom: 83px;
+}
+
+@media screen and (max-width: 1200px) {
+    .create-cv-input-group label {
+        font-size: 12px;
+    }
+
+    .create-cv-input-group label:after {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 991.5px) {
+    .create-cv {
+        margin-top: 80px;
+    }
+
+    .create-cv-card-wrapper {
+        margin-top: 120px;
+    }
+
+    .create-cv-header {
+        top: 20px;
+        padding-right: 30px;
+    }
+
+    .create-cv-form {
+        margin-top: 20px;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .create-cv-card-col {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .create-cv-input-group {
+        padding: 0;
+    }
+
+    .create-cv-form h3 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .create-cv-tabs a,
+    .create-cv-tabs .nav-link.active, .create-cv-tabs .show>.nav-link {
+        padding: 15px 48px;
+    }
+
+    .create-cv-tabs {
+        height: 245px;
+    }
+
+    .create-cv-input-group input {
+        padding: 15px 13px!important;
+        gap: 9px;
+    }
+
+    .create-cv-input-group select {
+        height: 56px!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .create-cv-tabs a,
+    .create-cv-tabs .nav-link.active, .create-cv-tabs .show>.nav-link {
+        padding: 13px 42px;
+    }
+
+    .create-cv-tabs {
+        height: 240px;
+        
+    }
+
+    .create-cv-input-group input {
+        padding: 14px 12px!important;
+        gap: 8px;
+    }
+
+    .create-cv-input-group select {
+        height: 54px!important;
+    }
+
+    .add-cv-custom-file label {
+        padding-right: 100px;
+        font-size: 10px;
+    }
+
+    .add-cv-custom-file label:after {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .create-cv-tabs a,
+    .create-cv-tabs .nav-link.active, .create-cv-tabs .show>.nav-link {
+        padding: 12px 36px;
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .create-cv-tabs {
+        height: 235px;
+        padding: 22px 32px;
+    }
+
+    .create-cv-input-group input {
+        padding: 13px 11px!important;
+        gap: 7px;
+    }
+
+    .create-cv-input-group select {
+        height: 52px!important;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .create-cv-tabs a,
+    .create-cv-tabs .nav-link.active, .create-cv-tabs .show>.nav-link {
+        padding: 10px 30px;
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .create-cv-tabs {
+        height: 230px;
+        padding: 10px 15px;
+    }
+
+    .create-cv-input-group input {
+        padding: 12px 10px!important;
+    }
+
+    .create-cv-input-group select {
+        height: 50px!important;
+    }
+
+    .add-cv-custom-file label {
+        padding-right: 60px;
+        font-size: 10px;
+    }
+
+    .add-cv-custom-file label:after {
+        width: 70px;
+    }
+}

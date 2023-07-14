@@ -1,0 +1,1242 @@
+.header-info{
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    background: linear-gradient(0deg, rgba(4, 15, 15, 0.6), rgba(32, 34, 80, 0.6)), url(../images/main.png);
+    background-position: center;
+}
+
+.header-info>div>h3 {
+    text-align: center;
+    color: white;
+}
+
+.cv-liked-card-wrapper {
+    display: flex!important;
+}
+
+.jobsearch-header-container {
+	max-width: 1000px!important;
+	width: 100%;
+	background: #F4F9FD;
+	display: flex;
+	align-items: center;
+	padding: 15px 15px 15px 33px;
+	border-radius: 5px;
+	justify-content: space-between;
+	margin-top: 37px;
+}
+
+.job-edit-img {
+    position: absolute;
+    top: 14px;
+    right: 35px;
+    width: 16px;
+}
+
+.jobsearch-header-container div {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.jobsearch-header-container input {
+	background: #F4F9FD!important;
+	border: 0;
+	outline: none;
+	width: 100%;
+	margin-left: 12px;
+	padding: 5px 0;
+	padding-right: 10px;
+	font-size: 18px;
+}
+
+.jobsearch-header-container button {
+	padding: 15px 51px;
+	background: #8843E1;
+	border-radius: 4px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #F4F9FD;
+}
+.main-container {
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    gap: 22px;
+}
+
+.contentclass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    border-radius: 36px;
+    padding: 0 5px 0 0;
+}
+
+.imageclass {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.imageclass img {
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.name {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #040F0F;
+}
+
+.profession {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #040F0F;
+}
+
+.salary {
+    color: #040F0F;
+}
+
+.likeclass {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.jobsearchers>p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.jobsearchcontainer {
+    max-width: 1000px!important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px!important;
+    padding-right: 100px!important;
+}
+
+.jobsearchers {
+    display: flex;
+    align-items: center;
+}
+
+.sortclass {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.sortclass select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 10px;
+    border: 2px solid #8843E1;
+    border-radius: 20px;
+    outline: none;
+}
+
+.sortclass > select > option {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ABADC6;
+}
+
+.jobsearch-card-container {
+    max-width: 1250px!important;
+    width: 100%;
+}
+
+.jobsearch-card-row {
+    margin-top: 104px;
+}
+
+.job-search-card {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    width: 368px;
+    height: 169px;  
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.jobsearch-card-col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 83px;
+}
+
+.jobsearch-card-information {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobsearch-card-information h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #040F0F;
+}
+
+.jobsearch-card-information p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #040F0F;
+}
+
+.jobsearch-card-information h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #040F0F;
+    margin-top: 14px;
+}
+
+.job-search-avatar {
+    position: absolute;
+    top: -38%;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.heart-icon,
+.red-heart-icon {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.job-search-card svg {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+.pagination-ul {
+	gap: 12px;
+}
+
+.pagination-ul .page-item.active .page-link {
+	background-color: #8843e1!important;
+	border: 1px solid #8843E1!important;
+}
+
+.pagination-ul .page-link {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #737373;
+    border-radius: 3px;
+}
+
+.jobsearch-pagination-right .page-link {
+	background-color: transparent!important;
+	border: none!important;
+}
+
+.jobsearch-all-result-text {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000000;
+	margin: 18px 0 40px 0;
+} 
+
+
+/* Jobsearcher Inner Section */
+
+.jobsearcher-inner {
+    width: 100%;
+    background: #F4F9FD;
+    padding: 15px 0;
+}
+
+.jobsearcher-inner-container {
+    max-width: 1000px!important;
+    width: 100%;
+}
+
+.jobsearcher-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+    padding: 9px 18px;
+}
+
+.jobsearcher-profile-wrapper {
+    /* width: 33%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.jobsearcher-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jobsearcher-information h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #040F0F;
+    margin: 0;
+}
+
+.jobsearcher-information p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #040F0F;
+}
+
+.jobsearcher-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobsearcher-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.jobsearcher-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+form .input-cv {
+    width: 359px;
+    height: 48px;
+    background: #8843E1;
+    border-radius: 20px;
+}
+
+form .input-cv label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 0 11.5px 0 37px;
+}
+
+form .input-cv label span{
+    width: 50%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.jobsearcher-inner-container header {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #8843E1;
+    border-radius: 20px 20px 0px 0px;
+    z-index: 1;
+}
+
+.job-information-row {
+    background: #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    padding: 22px 15px;
+}
+
+.job-information {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.job-information h5 {
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.job-information p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.job-information-img {
+    background: #E0D3F0;
+    border-radius: 5px;
+    width: 40px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobsearcher-ability {
+    background: #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+    padding: 37px 32px;
+    gap: 42px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jobsearch-ability p {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.jobsearcher-ability span {
+    background: #E0D3F0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+
+.jobsearcher-ability .span4 {
+    padding: 8px 51px;
+}
+
+.jobsearcher-abilty .span4 {
+    padding: 8px 30px;
+}
+
+.job-information-row2 {
+    background: #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    padding: 31px 20px;
+}
+
+.job-information-row3 {
+    background: #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    padding:25px 20px;
+}
+
+@media screen and (max-width: 991.5px) {
+    .cv-liked-card-wrapper {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 968px) {
+	.jobsearch-header-container {
+		padding: 13px 13px 13px 28px;
+	}
+
+    .jobsearch-ability  {
+        font-size: 13px;
+        line-height: 15px;
+    }
+	
+	.jobsearch-header-container input {
+		margin-left: 10px;
+		padding: 4px 0;
+		padding-right: 8px;
+		font-size: 17px;
+	}
+	
+	.jobsearch-header-container button {
+		padding: 13px 40px;
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+    /* Jobsearcher İnner Section */
+    
+    .jobsearcher-profile {
+        padding: 8px 16px;
+    }
+    
+    .jobsearcher-information h3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    
+    .jobsearcher-information p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .jobsearcher-avatar {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .jobsearcher-avatar img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    form .input-cv {
+        width: 319px;
+        height: 40px;
+    }
+    
+    form .input-cv label {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        padding: 0 10px 0 34px;
+    }
+    
+    form .input-cv label span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .jobsearcher-inner-container header {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .job-information-row {      
+        padding: 19px 13px;
+    }
+    
+    .job-information {
+        gap: 9px;
+    }
+    
+    .job-information h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    
+    .job-information p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    
+    .job-information-img {
+        width: 35px;
+        height: 31px;
+    }
+
+    .job-information-img img {
+        width: 20px;
+        height: 17px;
+    }
+    
+    .jobsearcher-ability {
+        padding: 30px 25px;
+        gap: 24px;
+    }
+    
+    .jobsearcher-ability span {
+        padding: 8px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .jobsearcher-ability .span4 {
+        padding: 7px 43px;
+    }
+    
+    .jobsearcher-abilty .span4 {
+        padding: 7px 26px;
+    }
+    
+    .job-information-row2 {
+        padding: 24px 18px;
+    }
+    
+    .job-information-row3 {
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	.header-info {
+		padding: 60px 20px;
+	}
+
+	.jobsearch-header-container {
+		padding: 11px 11px 11px 22px;
+	}
+	
+	.jobsearch-header-container input {
+		margin-left: 8px;
+		padding: 3px 0;
+		padding-right: 6px;
+		font-size: 16px;
+	}
+	
+	.jobsearch-header-container button {
+		padding: 12px 35px;
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+    /* Jobsearcher İnner Section */
+    
+    .jobsearcher-profile {
+        padding: 7px 14px;
+    }
+
+    .jobsearcher-profile-wrapper {
+        gap: 10px;
+    }
+    
+    .jobsearcher-information h3 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .jobsearcher-information p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    
+    .jobsearcher-avatar {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .jobsearcher-avatar img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    form .input-cv {
+        width: 240px;
+        height: 35px;
+    }
+    
+    form .input-cv label {
+        padding: 0 8px 0 24px;
+    }
+    
+    .input-cv img {
+        width: 22px;
+        height: 22px;
+    }
+
+    form .input-cv label span{
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .jobsearcher-inner-container header {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .job-information-row {      
+        padding: 19px 13px;
+    }
+    
+    .job-information {
+        gap: 9px;
+    }
+    
+    .job-information h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    
+    .job-information p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    
+    .job-information-img {
+        width: 35px;
+        height: 31px;
+    }
+
+    .job-information-img img {
+        width: 20px;
+        height: 17px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .jobsearchcontainer {
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
+
+    .jobsearch-ability  {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+	.jobsearch-header-container {
+		padding: 8px 8px 8px 16px;
+	}
+	
+	.jobsearch-header-container input {
+		margin-left: 6px;
+		padding: 2px 0;
+		padding-right: 4px;
+		font-size: 14px;
+	}
+	
+	.jobsearch-header-container button {
+		padding: 9px 28px;
+		font-size: 12px;
+		line-height: 13px;
+	}
+
+
+    /* Jobsearcher İnner Section */
+    
+    .jobsearcher-profile {
+        padding: 7px 12px;
+    }
+    
+    .jobsearcher-information h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .jobsearcher-information p {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .jobsearcher-avatar {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .jobsearcher-avatar img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    form .input-cv {
+        width: 160px;
+        height: 35px;
+    }
+    
+    form .input-cv label {
+        padding: 0 8px 0 13px;
+    }
+
+    form .input-cv input {
+        width: 60%;
+    }
+    
+    .input-cv img {
+        width: 20px;
+        height: 20px;
+    }
+
+    form .input-cv label span{
+        width: 100%;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    .jobsearcher-inner-container header {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .job-information-row {      
+        padding: 13px 8px;
+    }
+    
+    .job-information {
+        gap: 6px;
+    }
+    
+    .job-information h5 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .job-information p {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .job-information-img {
+        width: 18%;
+        height: 27px;
+    }
+
+    .job-information-img img {
+        width: 18px;
+        height: 15px;
+    }
+    
+    .jobsearcher-ability {
+        padding: 20px 20px;
+        gap: 20px;
+    }
+    
+    .jobsearcher-ability span {
+        padding: 6px;
+        font-size: 12.5px;
+        line-height: 15px;
+    }
+    
+    .jobsearcher-ability .span4 {
+        padding: 7px 37px;
+    }
+    
+    .jobsearcher-abilty .span4 {
+        padding: 7px 22px;
+    }
+    
+    .job-information-row2 {
+        padding: 20px 15px;
+    }
+    
+    .job-information-row3 {
+        padding: 16px 12px;
+    }
+/* 
+    .last-job-information {
+        width: 50%!important;
+    } */
+}
+
+@media screen and (max-width: 400px) {
+    .sortclass {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jobsearch-ability  {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+	.jobsearch-header-container {
+		padding: 5px 5px 5px 11px;
+	}
+	
+	.jobsearch-header-container input {
+		margin-left: 4px;
+		padding: 2px 0;
+		padding-right: 3px;
+		font-size: 10px;
+	}
+	
+	.jobsearch-header-container button {
+		padding: 8px 20px;
+		font-size: 11px;
+		line-height: 12px;
+	}
+
+    
+    .job-search-card {
+        padding: 8px;
+        gap: 15px;
+        width: 270px;
+        height: 129px;  
+    }
+    
+    .jobsearch-card-information h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .jobsearch-card-information p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .jobsearch-card-information h3 {
+        font-size: 17px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    
+    .job-search-avatar {
+        width: 85px;
+        height: 85px;
+    }
+
+    /* Jobsearcher İnner Section */
+    
+    .jobsearcher-profile {
+        padding: 3px;
+    }
+
+    .jobsearch-profile-wrapper {
+        width: 60%;
+    }
+
+    .jobsearch-profile form {
+        width: 40%;
+    }
+    
+    .jobsearcher-information h3 {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    
+    .jobsearcher-information p {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .jobsearcher-avatar {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .jobsearcher-avatar img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    form .input-cv {
+        width: 120px;
+        height: 30px;
+    }
+    
+    form .input-cv label {
+        padding: 0 8px 0 10px;
+    }
+
+    form .input-cv input {
+        width: 40%;
+    }
+    
+    .input-cv img {
+        width: 20px;
+        height: 20px;
+    }
+
+    form .input-cv label span{
+        width: 100%;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    
+    .jobsearcher-inner-container header {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .job-information-row {      
+        padding: 10px 5px;
+    }
+    
+    .job-information {
+        gap: 4px;
+    }
+    
+    .job-information h5 {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .job-information p {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .job-information-img {
+        width: 20%;
+        height: 24px;
+    }
+
+    .job-information-img img {
+        width: 15px;
+        height: 12px;
+    }
+    
+    .jobsearcher-ability {
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .jobsearcher-ability span {
+        padding: 4px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+    
+    .jobsearcher-ability .span4 {
+        padding: 4px 37px;
+    }
+    
+    .jobsearcher-abilty .span4 {
+        padding: 4px 22px;
+    }
+    
+    .job-information-row2 {
+        padding: 15px 10px;
+    }
+    
+    .job-information-row3 {
+        padding: 14px 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .job-search-card {
+        padding: 8px;
+        gap: 15px;
+        width: 250px;
+        height: 119px;  
+    }
+
+    .jobsearch-ability {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .job-search-avatar {
+        width: 75px;
+        height: 75px;
+    }
+
+    /* Jobsearcher İnner Section */
+    
+    .jobsearcher-profile {
+        padding: 2px;
+    }
+
+    .jobsearch-profile-wrapper {
+        width: 60%;
+    }
+
+    .jobsearch-profile form {
+        width: 40%;
+    }
+    
+    .jobsearcher-information h3 {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .jobsearcher-information p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    
+    .jobsearcher-avatar {
+        width: 28px;
+        height: 28px;
+    }
+    
+    form .input-cv {
+        width: 100px;
+        height: 25px;
+    }
+    
+    form .input-cv label {
+        padding: 0 8px 0 10px;
+    }
+
+    form .input-cv input {
+        width: 20%;
+    }
+    
+    .input-cv img {
+        width: 18px;
+        height: 18px;
+    }
+
+    form .input-cv label span{
+        width: 100%;
+        font-size: 9px;
+        line-height: 13px;
+    }
+    
+    .jobsearcher-inner-container header {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    
+    .job-information-row {      
+        padding: 8px 4px;
+    }
+    
+    .job-information {
+        gap: 3px;
+    }
+    
+    .job-information h5 {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    
+    .job-information p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    
+    .job-information-img {
+        width: 20%;
+        height: 24px;
+    }
+
+    .job-information-img img {
+        width: 13px;
+        height: 10px;
+    }
+    
+    .jobsearcher-ability {
+        padding: 8px;
+        gap: 8px;
+    }
+    
+    .jobsearcher-ability span {
+        padding: 3px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    .jobsearcher-ability .span4 {
+        padding: 3px 34px;
+    }
+    
+    .jobsearcher-abilty .span4 {
+        padding: 3px 20px;
+    }
+    
+    .job-information-row2 {
+        padding: 13px 8px;
+    }
+    
+    .job-information-row3 {
+        padding: 12px 8px;
+    }
+}

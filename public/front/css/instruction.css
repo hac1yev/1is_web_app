@@ -1,0 +1,134 @@
+.instructions-div1 {
+    list-style-position: inside;
+    color: #8843E1;
+    padding: 3px;
+    background: #ECDBFC;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.instructions-header {
+    color: white;
+}
+
+.instructions-div2>h2 {
+    font-weight: bold;
+}
+
+.instructions-div3 {
+    color: #C7C7C7;
+}
+
+.info-boxs {
+    width: 78%;
+    margin: 22px auto;
+}
+
+.info-boxs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8%;
+    color: white;
+
+}
+
+.info-boxs-container>div {
+    width: 218.58px;
+    height: 84px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.box-info1,
+.box-info2,
+.box-info3,
+.box-info4,
+.box-info5,
+.box-info6,
+.box-info7,
+.box-info8 {
+    background: #9559E5!important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.box-info2 {
+    flex-wrap: nowrap !important;
+}
+
+.box-svg {
+    display: flex;
+    justify-content: center;
+    width: 23%;
+}
+
+.position-instructions {
+    margin: 0 auto;
+}
+
+.position-instructions>h3 {
+    width: 78%;
+    color: white;
+    background-color: #221238;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.position-instructions-container {
+    margin: 0 auto;
+    margin-bottom: 13px;
+    width: 78%;
+    background: #E6F1FA;
+}
+
+.position-instructions-container>ul {
+    width: 70%;
+    margin: 5px auto;
+    padding-top: 14px;
+}
+
+.apply-button {
+    width: 140px;
+    height: 40px;
+    background: #221238;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 44px auto;
+}
+
+.apply-button:hover {
+    color: #fff;
+}
+
+
+.header-info {
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(4, 15, 15, 0.6), rgba(32, 34, 80, 0.6)), url(../images/main.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 768px) {
+    .info-boxs-container>div{
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,24 @@
+.show-more-section{
+    max-width: 940px;
+    width: 100%;
+    background: #f8f0fb;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.show-more-section-inner{
+    max-width: 577px;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* .show-more-section > div{
+    margin: 30px;
+} */

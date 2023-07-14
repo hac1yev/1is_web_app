@@ -1,0 +1,95 @@
+.all-comp-container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    justify-content: space-between;
+}
+
+.company-section {
+    padding: 20px 0;
+}
+
+.filter1 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.filter1 input {
+    width: 100%;
+}
+
+.filter2 {
+    width: 20%;
+}
+
+.vac-select{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ABADC6;
+}
+
+.dropdown-comp-2{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.vac-select:focus-visible{
+    outline: none;
+}
+
+.select_box{
+    width: 158px;
+    overflow: hidden;
+    border: 2px solid #8843E1;
+    position: relative;
+    /* padding: 10px 0; */
+    border-radius: 12px;
+  }
+  .select_box:after{
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #8843E1;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    content: "";
+    z-index: 99;
+   }
+  .select_box select{
+    width: 153px;
+    border: 0;
+    position: relative;
+    z-index: 99;
+    background: none;
+  }
+
+.dropdown-comp-2 h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .all-comp-container{
+        justify-content: space-around;
+    }
+    
+    .section-filter{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

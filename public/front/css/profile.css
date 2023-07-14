@@ -1,0 +1,250 @@
+.profile-section {
+  background-color: #fff;
+}
+
+.profile-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.prof-cont-left {
+  max-width: 460px;
+  width: 100%;
+  height: 347px;
+  background: #fdfdfd;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px 40px 20px 40px;
+}
+
+.prof-cont-right {
+  max-width: 460px;
+  width: 100%;
+}
+
+.profile-left-icons {
+  width: 23px;
+  height: 23px;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.icon-1 {
+  background: url('https://1is.butagrup.az/back/assets/images/icons/prof-inner.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-2 {
+  background: url('https://1is.butagrup.az/back/assets/images/icons/heart-inner1.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-3 {
+  background: url('https://1is.butagrup.az/back/assets/images/icons/settings.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-4 {
+  background: url('https://1is.butagrup.az/back/assets/images/icons/exit.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 387px;
+  width: 100%;
+  height: 58px;
+  margin: 10px 0;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9559e5;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: #9559e5;
+}
+
+.proftab-1 {
+  max-width: 459px;
+  width: 100%;
+  height: 168.32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #fdfdfd;
+  box-shadow: 0px 0px 5px rgba(2, 2, 2, 0.25);
+  border-radius: 10px;
+}
+
+.prof-cont {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.proftab-1 img {
+  width: 65px;
+  height: 65px;
+}
+
+.proftab-1 span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #9559e5;
+}
+
+.user-profile-card {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.form-innerdiv{
+  position: relative;
+}
+
+.form-group label{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #020202;
+}
+
+.form-group input{
+  max-width: 460px;
+  width: 100%;
+  height: 55px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.form-innerdiv span{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.form-button{
+  width: 117px;
+  height: 37px;
+  background: #9559E5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.form-send{
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 940px) {
+  .profile-container{
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .prof-cont-left{
+    width: 95%;
+  }
+
+  .prof-cont{
+    align-items: center;
+  }
+
+  .proftab-1{
+    width: 95%;
+  }
+
+  .profile-container{
+    justify-content: center;
+  }
+
+  .vac-card{
+    width: 95%;
+  }
+
+  .form-group{
+    width: 100%;
+  }
+
+  .form-horizontal{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.form-control:focus{
+  border: none;
+  box-shadow: none;
+}
+
+
+ .nav-link.active  > .icon-1{
+  background: url('https://1is.butagrup.az/back/assets/images/icons/prof-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+ .nav-link.active  > .icon-2{
+  background: url('https://1is.butagrup.az/back/assets/images/icons/hear-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+ .nav-link.active  > .icon-3{
+  background: url('https://1is.butagrup.az/back/assets/images/icons/setting-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
